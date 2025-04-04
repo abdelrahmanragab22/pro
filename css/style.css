@@ -1,0 +1,980 @@
+*{
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body{
+
+height: 6685px;
+
+}
+
+
+.hero{
+height: 100vh;
+background-image: url(../IMAGES/fairytale-scene-coming-out-book.jpg);
+background-size: cover;
+background-position: center;
+}
+.h1{
+padding-top: 125px;
+    text-align: center;
+color: rgb(255, 255, 255);
+font-size: 55px;
+text-transform: uppercase;
+}
+
+.header{
+position: fixed;
+width: 100%;
+height: 45px;
+background-color:#311c7ddc;
+opacity: .9;
+top: 0;
+z-index: 1000;
+}
+
+.header ul li a::after{
+content: "";
+width: 0;
+height: 2px;
+background-color: #100036;
+position: absolute;
+left: 0;
+bottom: -5px;
+transition: 0.5s;
+}
+
+.header ul li a:hover::after{
+
+width: 100%;
+
+}
+
+.list{
+position: absolute;
+list-style-type: none;
+right: 20px;
+margin-top: -45;
+}
+
+.list li {
+  margin-right: 20px;
+    display: inline;
+  position: relative;
+   float: right;
+}
+
+.list li a{
+ 
+color: rgb(255, 255, 255);
+text-decoration: none;
+transition: 0.8s;
+}
+.dropdown {
+  position: absolute;
+  left: 0;
+background-color: #ffffff;
+  list-style: none;
+  visibility: hidden;
+border-radius: 10px;
+height: 122px;
+width: 105px;
+margin-top: 12px;
+font-weight: bold;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 10px;
+  color: rgba(42, 46, 146, 0.708);
+  transition: 0.3s;
+ width: 80px;
+
+}
+
+
+.dropdown-parent{
+  position: relative; 
+}
+.dropdown-parent:hover  .dropdown {
+  display: block;
+visibility: visible;
+}
+
+
+.div1 input {
+  width: 220px;
+  height: 25px;
+margin-left: 100px;
+margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 18px;
+}
+
+
+.div1 i{
+  position: absolute;
+  background: none;
+  border: none;
+left: px;
+top: 15px;
+font-size: 16px;
+  color: gray;
+left: 104px;
+}
+
+
+.home-icon {
+  position: relative;
+  top: -25px;
+  left: 30px; 
+  font-size: 22px; 
+}
+
+.p1{
+color: #eae9e9;
+text-align: center;
+font-weight: bold;
+padding-top: 5px;
+letter-spacing: 1px;
+}
+
+.div2{
+
+text-align: center;
+margin-top: 10px;
+}
+
+.btn1{
+
+  background-color:#3f13de;
+border: none;
+border-radius: 8px;
+font-size: 17px;
+height: 39px;
+width: 130px;
+cursor: pointer;
+}
+
+.btn2{
+background-color: #ffffff;
+margin-left: 10px;
+}
+
+.btn1:hover{
+
+opacity: .7;
+
+}
+
+
+.h2{
+padding-top: 50px;
+text-align: center;
+font-size: 50px;
+
+}
+.container1{
+margin-left: 9%;
+  width: 85%;
+}
+
+.container{
+
+width: 85%;
+margin-left: 15%;
+}
+
+.parent-full{
+border-radius: 10px;
+border: 1px solid blue;
+height: 220px;
+width: 30%;
+text-align: center;
+margin-top: 80px;
+float: left;
+position: relative;
+}
+.parent-full:hover i{
+
+  color: #1c0b8c;
+}
+.parent-full:hover h2{
+
+color: #ffffff;
+
+}
+.parent-full p{
+font-weight: bold;
+color: rgb(110, 110, 110);
+}
+
+.parent-full:hover p {
+color: black;
+ }
+.parent-full:hover .btn3 a {
+  color: #1c0b8c; 
+}
+
+.parent-full1{
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.parent-full i{
+
+  font-size: 30px;
+  color: #552ca2;
+  padding-top: 15px;
+
+}
+
+
+.container a {
+
+text-decoration: none;
+
+}
+
+.h3{
+
+  padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.btn3{
+border: none;
+background: none;
+padding-top: 40px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.parent-full::after{
+content: "";
+position: absolute;
+
+top:0;
+left:0;
+
+background-color: rgba(0, 0, 0, 0.5);
+opacity: 0;
+width: 0%;
+height: 0%;
+z-index: -1;
+}
+
+.parent-full:hover::after{
+width: 100% ;
+height: 100%;
+opacity: .2;
+transition: .5s;
+}
+
+.div3{
+width: 100%;
+background-color: #e9e7e7;
+height: 640px;
+
+}
+
+.h4{
+text-align: center;
+margin-top: 530px;
+font-size: 45px;
+
+}
+.line{
+width: 100px;
+height: 4px;
+background-color: rgb(44, 16, 69);
+margin: auto;
+margin-top: 5px;
+margin-bottom: 30px;
+}
+.container-imges{
+margin: auto;
+width: 80%;
+
+}
+
+.Featured-img{
+
+float: left;
+width: 30%;
+position: relative;
+margin-bottom: 20px;
+}
+
+.Featured-img5{
+
+  margin: 0px 5%;
+}
+
+.Featured-info{
+position: absolute;
+color: #ffffff;
+top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+}
+.Featured-img:hover .Featured-info {
+  opacity: 1;
+}
+.Featured-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+background: rgba(0, 0, 0, 0.2);
+transition: transform 0.3s;
+z-index: 0;
+}
+.Featured-img:hover::after {
+  opacity: 1;
+}
+.Featured-img img{
+
+width: 100%;
+
+}
+
+.Featured-info p {
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 20px;
+}
+
+.Featured-info i{
+background-color: #fefdff;
+ height: 25px;
+color: gray;
+font-size: 20px;
+border-radius: 5px;
+width: 40px;
+cursor: pointer;
+}
+
+.Featured-info h2{
+padding-top: 30px;
+  font-size: 30px;
+
+}
+
+.h5{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+  
+  }
+
+  .container-offer{
+
+    width: 85%;
+    margin: auto;
+    }
+    
+    .parent-full-offer{
+    border-radius: 10px;
+    border: 1px solid blue;
+    height: 220px;
+    width: 30%;
+    margin-top: 80px;
+    float: left;
+    position: relative;
+    display: flex;   
+    padding: 15px;
+    gap: 10px; 
+  }
+    .parent-full-offer:hover i{
+    
+      color: #1c0b8c;
+    }
+    .parent-full-offer:hover h2{
+    
+    color: #ffffff;
+    
+    }
+    .parent-full-offer p{
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+  }
+    
+    .parent-full-offer:hover p {
+    color: black;
+     }
+    
+    .parent-full-offer1{
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    
+    .parent-full-offer i{
+    cursor: pointer;
+      font-size: 30px;
+      color: #552ca2;
+      padding-top: 20px;
+    padding-left: 10px;  
+  }
+    
+    .parent-full-offer::after{
+    content: "";
+    position: absolute;
+    
+    top:0;
+    left:0;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+    z-index: -1;
+    }
+    
+    .parent-full-offer:hover::after{
+    width: 100% ;
+    height: 100%;
+    opacity: .2;
+    transition: .5s;
+    }
+
+
+    .h6{
+      
+      margin-top: 800px;
+      font-size: 40px;
+     margin-left: 150px;
+      }
+
+      .line1{
+        width: 80px;
+        height: 4px;
+        background-color: rgb(44, 16, 69);
+       margin-left: 150px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        }
+
+.parent-choose{
+width: 100%;
+padding-left: 150px;
+color: rgb(115, 112, 112);    
+font-size: 16px;
+font-weight: bold;
+}
+
+.p22{
+
+padding-top: 45px;
+padding-bottom: 45px;
+}
+
+.p3{
+
+padding-bottom: 40px;
+
+}
+.img-content{
+margin-top: -450px;
+float: right;
+margin-right: 150px;
+
+}
+
+.img-content ul li{
+width: 15px;
+height: 15px;
+float: left;
+margin-top: 10px;
+margin-left: 15px;
+border-radius: 50%;
+transition: 0.2s;
+list-style: none;
+
+}
+
+.img-content ul{
+  margin-left: 35%;
+}
+
+.dots1:hover{
+  background-color: rgb(44, 16, 69);
+
+}
+
+.dots1{
+  background-color: gray; 
+
+}
+
+.dots2{
+
+  background-color: rgb(44, 16, 69);
+}
+
+.parent-choose-content i{
+
+color: #1c0b8c;
+
+}
+
+.container-image1{
+width: 100%;
+height: 400px;
+background-image: url(../IMAGES/fairytale-scene-coming-out-book\ \(2\).jpg);
+background-attachment: fixed;
+background-size: cover;
+margin-top: 100px;
+background-position: center;
+justify-content: center;
+    align-items: center;
+}
+
+.users{
+color: #ffffff;
+display: flex;
+flex-direction: column;
+align-items: center; 
+ text-align: center;
+    font-size: 18px;
+  }
+
+.container-parent-image1{
+padding-top: 10%;
+padding-left: 5%;
+display: flex;
+justify-content: center;
+    align-items: center;
+  gap: 200px;
+   
+
+}
+
+.users i {
+  font-size: 50px; 
+  margin-bottom: 10px; 
+  color:  rgb(64, 36, 113); 
+}
+
+.users span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.h7{
+  text-align: center;
+  margin-top: 120px;
+  font-size: 45px;
+  
+  }
+
+  .pricing-tab{
+
+    border-radius: 10px;
+    border: 1px solid rgb(30, 0, 181);
+    height: 370px;
+    width: 25%;
+    text-align: center;
+    margin-top: 80px;
+    float: left;
+    position: relative;
+    padding: 20px;
+    transition: transform 0.3s
+
+  }
+
+.price-circle {
+    color: rgb(52, 16, 82);
+    margin: 10px 70px;
+    border: 2px solid rgb(111, 111, 184); 
+    border-radius: 50%;
+  height: 100px;
+  width: 100px;
+ text-align: center; 
+}
+.price-circle span {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+
+}
+.price-circle p {
+  font-size: 30px; 
+  font-weight: bold;
+padding-top: 20px;
+}
+.pricing-tab-par{
+padding: 15px;
+font-weight: bold;
+}
+.pra{
+
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.priceing-tab .price:hover{
+
+border-color:  rgb(44, 16, 69);
+}
+
+.purchase-btn {
+  background-color: transparent;
+  border: 2px solid   rgb(48, 18, 74,.7);
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+width: 150px;
+background-color: rgb(110, 110, 110,.1);
+}
+.purchase-btn1{
+
+  margin-top: 20px;
+}
+.pricing-tab1{
+
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
+
+.pricing-tab::after{
+  content: "";
+  position: absolute;
+  
+  top:0;
+  left:0;
+  
+  background-color: rgba(124, 78, 163, 0.5);
+  opacity: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  transition:.5s;  
+}
+  
+  .pricing-tab:hover::after{
+  width: 100% ;
+  height: 100%;
+  opacity: .8;
+  transition:.5s;
+
+}
+
+.pricing-tab:hover .price-circle {
+  border-color:  rgb(84, 0, 157); 
+  transition:.1s;  
+}
+
+.pricing-tab:hover h3 {
+  color: rgb(84, 0, 157); 
+}
+
+.container-image2{
+
+  width: 100%;
+  height: 400px;
+  background-image: url(../IMAGES/fairytale-scene-coming-out-book\ \(4\).jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 650px;
+  background-position: center;
+  justify-content: center;
+      align-items: center;
+      display: flex; 
+z-index: 1;
+    }
+
+.container-image2-team {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  color: white;
+  align-items: center; 
+  gap: 15px;
+margin-left: 12%;
+}
+
+.team-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px ;
+ margin-top: -45px;
+ z-index: 2;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+
+
+}
+
+.job-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #161565;
+}
+.description {
+  font-size: 16px;
+margin-top: 40px;
+margin-left: -95px;
+font-weight: bold;
+color: rgb(255, 255, 255);
+
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column; 
+z-index: 2;
+}
+
+.container-image2::after{
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 67%;
+  z-index: 1;
+}
+
+
+.team-item {
+  float: left;
+  background-color: rgb(209, 209, 209);
+  width: 25% ;
+  padding: 16px 14px ;
+  text-align: center;
+height: 320px;
+border-radius: 20px;
+position: relative;
+}
+
+.team-item-2 {
+  margin: 0px 5%;
+}
+
+.team-img3 {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.team-img  img {
+  width: 100%;
+
+}
+
+.team-info{
+  font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team-info-title{
+margin-bottom: 30px;
+margin-top: 5px;
+}
+
+.team-icons{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+visibility: hidden;
+background-color: rgba(160, 141, 172, 0.5);
+width: 83.5%;
+margin-left: 20px;
+}
+.team-item:hover .team-icons{
+visibility: visible;
+
+}
+
+.team-icons i{
+background-color: #9998c5;
+display: block;
+color: #ccc;
+width: 45px;
+height: 45px;
+line-height: 45px;
+margin-left: auto;
+}
+
+.team-item::after{
+content: "";
+position: absolute;
+width: 100%;
+height: 0%;
+top: 0;
+left: 0;
+background-color: black;
+opacity: 0;
+border-radius: 20px;
+}
+
+.team-item:hover::after{
+border-radius: 20px;
+width: 100%;
+height: 100%;
+opacity: .4;
+transition: .5s;
+}
+.team-item:hover h2{
+
+  color: #ffffff;
+}
+.team-item:hover p{
+color: #161565;
+
+}
+.container4{
+  width: 85%;
+height: 500px;
+margin-top: 500px;
+margin-left: 10%;
+}
+
+.news-container{
+float: left;
+width: 30% ;
+padding: 16px 10px ;
+text-align: center;
+height: 480px;
+border-radius: 20px;
+position: relative;
+border: 1px solid blue;
+
+}
+
+ 
+.news-container2{
+
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
+.news-icons{
+padding: px;
+
+color: #161565;
+display: flex;
+gap: 5px;
+margin-left: 30px;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+.news-info-title{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.news-info-p{
+color: gray;
+ margin-bottom: 10px;
+}
+
+.news-info a{
+font-weight: bold;
+
+}
+
+.news-container::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  background-color: rgb(13, 31, 171);
+  opacity: 0;
+  border-radius: 20px;
+z-index: -1;
+}
+
+.news-container:hover::after{
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  opacity: .2;
+  transition: .5s;
+  }
+
+  .news-container:hover h2{
+color: #ffffff;
+
+  }
+
+  .news-container:hover p {
+
+color: #161565;
+  }
+
+  .i2{
+margin: 0 15px;
+
+  }
+
+  .last-section{
+width: 100%;
+   height: 60vh;
+  background-color: rgba(129, 118, 160, 0.397);
+margin-top: 180px;
+}
+
+.last-section img{
+margin-left: 40%;
+border-radius: 15px;
+margin-top: 20px;
+}
+
+.img-content2 ul li{
+   float: left;
+  list-style: none;
+padding-top:8px ;
+text-align: center;
+background-color: rgb(158, 150, 179);
+width: 55px;
+height: 55px;
+border-radius: 50%;
+font-size: 35px;
+margin-top: 10px;
+color: #ffffff;
+transition: .5s;
+}
+
+  .img-content2 ul{
+    margin-left: 37%;
+  }
+  
+  .dot3:hover{
+    background-color: rgb(44, 16, 69);
+  }
+  .dot4{
+margin-left: 5px;
+margin-right: 5px;
+  }
+
+.p-last{
+  text-align: center;
+    font-size: 14px;
+    color: #333;
+  padding-top: 10px;
+    font-weight: bold;
+    clear: both;
+  }
