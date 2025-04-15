@@ -219,6 +219,9 @@ color: black;
 .parent-full:hover .btn3 a {
   color: #1c0b8c; 
 }
+.parent-full:hover .btn3 {
+  color: #1c0b8c; 
+}
 
 .parent-full1{
 margin-left: 5%;
@@ -242,18 +245,19 @@ text-decoration: none;
 
 .h3{
 
-  padding-top: 20px;
+  padding-top: 5px;
 padding-bottom: 20px;
 }
 
 .btn3{
 border: none;
 background: none;
-padding-top: 40px;
+padding-top: 30px;
 font-weight: bold;
 cursor: pointer;
+text-decoration: none;
+color: #582794;
 }
-
 .parent-full::after{
 content: "";
 position: absolute;
@@ -380,17 +384,16 @@ padding-top: 30px;
   }
 
   .container-offer{
-
     width: 85%;
     margin: auto;
     }
-    
     .parent-full-offer{
     border-radius: 10px;
     border: 1px solid blue;
     height: 220px;
     width: 30%;
-    margin-top: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     float: left;
     position: relative;
     display: flex;   
@@ -532,7 +535,7 @@ color: #1c0b8c;
 .container-image1{
 width: 100%;
 height: 400px;
-background-image: url(../IMAGES/fairytale-scene-coming-out-book\ \(2\).jpg);
+background-image: url(../IMAGES/open-book-concept-fairy-tale-fiction-.jpg);
 background-attachment: fixed;
 background-size: cover;
 margin-top: 100px;
@@ -564,7 +567,7 @@ justify-content: center;
 .users i {
   font-size: 50px; 
   margin-bottom: 10px; 
-  color:  rgb(64, 36, 113); 
+  color:  rgb(158, 131, 206); 
 }
 
 .users span {
@@ -686,7 +689,7 @@ margin-right: 5%;
 
   width: 100%;
   height: 400px;
-  background-image: url(../IMAGES/fairytale-scene-coming-out-book\ \(4\).jpg);
+  background-image: url(../IMAGES/Screenshot\ \(522\).png);
   background-attachment: fixed;
   background-size: cover;
   margin-top: 650px;
@@ -719,22 +722,23 @@ margin-left: 12%;
 h2 {
   font-size: 24px;
   font-weight: bold;
-
+margin-top: 20px;
 
 }
 
 .job-title {
   font-size: 22px;
   font-weight: bold;
-  color: #161565;
+  color: #5e0066;
+margin-top: 5px;
 }
 .description {
   font-size: 16px;
-margin-top: 40px;
+margin-top: 30px;
 margin-left: -95px;
 font-weight: bold;
 color: rgb(255, 255, 255);
-
+line-height: 22px;
 }
 
 .text-content {
@@ -891,7 +895,7 @@ color: gray;
 
 .news-info a{
 font-weight: bold;
-
+text-decoration: none;
 }
 
 .news-container::after{
